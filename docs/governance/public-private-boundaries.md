@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/design1-software/design1-software/main/public/ARIA_Logo.png" alt="ARIA Training Labs" width="200" />
+</div>
+
+---
+
 # Public and Private Documentation Boundaries
 
 Status: Public-safe governance document  

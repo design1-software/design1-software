@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="public/ARIA_LinkedIn_Banner.png" alt="ARIA Training Labs" width="100%" />
+  <img src="https://raw.githubusercontent.com/design1-software/design1-software/main/public/ARIA_LinkedIn_Banner.png" alt="ARIA Training Labs" width="100%" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="public/ARIA_Logo.JPEG" alt="ARIA logo" width="80" />
+  <img src="https://raw.githubusercontent.com/design1-software/design1-software/main/public/ARIA_Logo.png" alt="ARIA Training Labs" width="260" />
 
-  <h1>ARIA Training Labs</h1>
+  <br><br>
 
   <p><strong>Enterprise IT training built for the real world.</strong><br>
   Students don't just study IT — they practice working like IT employees.</p>
@@ -169,8 +169,8 @@ This repository is the **public documentation home** for ARIA. It contains the l
 
 <table>
   <tr>
-    <td width="120" valign="top">
-      <img src="public/Julius_Moore.jpg" alt="Julius Moore" width="100" style="border-radius: 50%;" />
+    <td width="130" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/design1-software/design1-software/main/public/Julius_Moore.jpg" alt="Julius Moore" width="110" />
     </td>
     <td valign="top">
       <strong>Julius Moore</strong><br>
