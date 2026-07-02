@@ -162,7 +162,10 @@ This repository is the **public documentation home** for ARIA. It contains the l
 |----------|-------------|
 | [ARIA Vision](docs/vision/aria-vision.md) | Mission, core idea, five pillars, and long-term direction |
 | [Career Operations Mode](docs/student-experience/career-operations-mode.md) | The progressive workplace simulation and student experience |
+| [Career Operations Features](docs/student-experience/career-operations-features.md) | Assignment Bridge, Employee Onboarding, Student Dashboard, and Outside Lab Support |
 | [Shift Mode](docs/student-experience/shift-mode.md) | The daily ticket queue — how students choose, investigate, and submit work |
+| [Evidence-Based Learning](docs/student-experience/evidence-based-learning.md) | Proof vs. claim, scope enforcement, teardown requirements, and the final note format |
+| [ARIA Mentor](docs/student-experience/aria-mentor.md) | The AI coaching model — template validation, evidence standards, and instructor loop |
 | [Training Domains Overview](docs/training-domains/overview.md) | All nine practice areas and how they connect |
 | [Public / Private Boundaries](docs/governance/public-private-boundaries.md) | What belongs here and what stays in the private codebase |
 
