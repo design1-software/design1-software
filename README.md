@@ -167,6 +167,7 @@ This repository is the **public documentation home** for ARIA. It contains the l
 | [Evidence-Based Learning](docs/student-experience/evidence-based-learning.md) | Proof vs. claim, scope enforcement, teardown requirements, and the final note format |
 | [ARIA Mentor](docs/student-experience/aria-mentor.md) | The AI coaching model — template validation, evidence standards, and instructor loop |
 | [Training Domains Overview](docs/training-domains/overview.md) | All nine practice areas and how they connect |
+| [Security and SOC Domain](docs/training-domains/security-soc.md) | Six defensive SOC labs, the offensive track, evidence standards, and the dedicated security node |
 | [Public / Private Boundaries](docs/governance/public-private-boundaries.md) | What belongs here and what stays in the private codebase |
 
 ---

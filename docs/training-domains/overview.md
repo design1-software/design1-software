@@ -125,21 +125,25 @@ Public documentation does not include private addressing, actual device names, o
 
 ## Domain 6: Security and SOC Readiness
 
-Students practice early security operations thinking.
+Students practice defensive SOC analyst thinking with a path into instructor-authorized offensive exercises.
 
 Skills include:
 
 ```text
-Alert triage
-Affected asset identification
-False positive vs suspicious activity
-Basic incident notes
-Escalation reasoning
-Evidence preservation
-Safe investigation boundaries
+SIEM alert triage
+Failed login investigation
+Suspicious process and service analysis
+Vulnerability finding review
+Web log analysis
+Security ticket escalation
+Authorized vulnerability scanning
+Controlled exploit validation (instructor-authorized only)
+Purple team simulation
 ```
 
-Security practice is designed to be controlled and instructor-governed. Public examples use fictional alerts and assets.
+Security practice is designed to be controlled and instructor-governed. The domain runs on a dedicated physical node isolated from production training systems. Offensive exercises require instructor authorization, a written scope statement, isolated targets, and documented teardown.
+
+For the full domain breakdown including all six SOC labs and the offensive track, see [security-soc.md](security-soc.md).
 
 ## Domain 7: Automation and Documentation
 
