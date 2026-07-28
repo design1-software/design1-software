@@ -27,7 +27,7 @@
 
   <img src="https://img.shields.io/badge/Platform-Active_Development-38bdf8?style=flat-square&labelColor=0d1117&color=38bdf8" alt="Active Development" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Training_Domains-9-818cf8?style=flat-square&labelColor=0d1117&color=818cf8" alt="9 Training Domains" />
+  <img src="https://img.shields.io/badge/Training_Domains-5-818cf8?style=flat-square&labelColor=0d1117&color=818cf8" alt="5 Training Domains" />
   &nbsp;
   <img src="https://img.shields.io/badge/Hands--On_Labs-100-f472b6?style=flat-square&labelColor=0d1117&color=f472b6" alt="100 Hands-On Labs" />
   &nbsp;
@@ -90,19 +90,17 @@ That moment — choosing which ticket to tackle first — changes the learning e
 
 ## Training Domains
 
-ARIA organizes practice into nine domains that reflect real IT work. A single ticket may touch several at once.
+ARIA organizes practice into **five training domains** that mirror the live lab catalog — **100 hands-on labs** in total (95 production-ready). A single ticket may touch several domains at once.
 
-| Domain | Area | Focus |
-|--------|------|--------|
-| 01 | **Help Desk & Ticketing** | Triage, documentation, escalation, professional communication |
-| 02 | **Identity & Access Management** | Account review, login triage, group membership, lockout workflows |
-| 03 | **Windows Endpoint Support** | Endpoint identity, network config, policy validation, health checks |
-| 04 | **Linux & Systems Administration** | User identity, service status, disk/memory awareness, log review |
-| 05 | **Networking & Infrastructure** | IP concepts, DNS troubleshooting, DHCP review, VLAN awareness |
-| 06 | **Security & SOC Readiness** | Alert triage, incident notes, escalation reasoning, safe investigation |
-| 07 | **Automation & Documentation** | Runbooks, checklists, repeatable evidence collection, change summaries |
-| 08 | **Asset Management & Operations** | Inventory, classification, lifecycle tracking, onboarding documentation |
-| 09 | **Outside Lab Practice** | Vendor labs, certification sandboxes, disposable environments |
+| Domain | Focus | Labs |
+|--------|-------|------|
+| 01 · **Help Desk & Ticketing** | Triage, documentation, escalation, professional communication, asset/operations awareness | 24 |
+| 02 · **Identity & Access Management** | Account review, login triage, group membership, lockouts, MFA, Windows endpoint & policy validation | 21 |
+| 03 · **Networking & Cisco** | IP/DNS/DHCP, VLANs, routing, switch/router troubleshooting, network automation | 17 |
+| 04 · **Linux & Systems Administration** | Service status, log review, health checks, safe scripting, automation & documentation | 26 |
+| 05 · **Security Operations Center** | SIEM alert triage, investigation, incident notes, instructor-authorized offensive track | 12 |
+
+Asset management/operations and outside-lab support run **across** these domains rather than as separate tracks, and a graduation **Cross-Domain Incident Response capstone** ties all five together. See the [Training Domains Overview](docs/training-domains/overview.md).
 
 ---
 
@@ -184,7 +182,7 @@ This repository is the **public documentation home** for ARIA. It contains the l
 | [Shift Mode](docs/student-experience/shift-mode.md) | The daily ticket queue — how students choose, investigate, and submit work |
 | [Evidence-Based Learning](docs/student-experience/evidence-based-learning.md) | Proof vs. claim, scope enforcement, teardown requirements, and the final note format |
 | [ARIA Mentor](docs/student-experience/aria-mentor.md) | The AI coaching model — template validation, evidence standards, and instructor loop |
-| [Training Domains Overview](docs/training-domains/overview.md) | All nine practice areas and how they connect |
+| [Training Domains Overview](docs/training-domains/overview.md) | All five domains, the capstone, and how they connect |
 | [Security and SOC Domain](docs/training-domains/security-soc.md) | Six defensive SOC labs, the offensive track, evidence standards, and the dedicated security node |
 | [Public / Private Boundaries](docs/governance/public-private-boundaries.md) | What belongs here and what stays in the private codebase |
 

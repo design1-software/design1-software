@@ -14,13 +14,23 @@ Purpose: Describe ARIA's training areas without exposing private infrastructure 
 
 ## Overview
 
-ARIA organizes practice into broad training domains that reflect real IT work.
+ARIA organizes practice into **five training domains** that mirror the platform's live lab catalog. The goal is not to teach isolated facts — it is to help students see how help desk, identity, networking, Linux systems, and security connect in a real workplace. A single ticket often touches several domains at once.
 
-The goal is not to teach isolated facts. The goal is to help students understand how help desk, identity, endpoints, Linux systems, networking, documentation, security, and operations connect in a workplace.
+Across the five domains, ARIA offers **100 hands-on labs** — 95 production-ready and 5 in active development.
 
-## Domain 1: Help Desk and Ticketing
+| Domain | Focus | Labs |
+|--------|-------|------|
+| **Help Desk & Ticketing** | Triage, documentation, escalation, professional communication, asset/operations awareness | 24 |
+| **Identity & Access Management** | Account review, login triage, group membership, lockouts, MFA, Windows endpoint & policy validation | 21 |
+| **Networking & Cisco** | IP/DNS/DHCP, VLANs, routing, switch/router troubleshooting, network automation | 17 |
+| **Linux & Systems Administration** | Service status, log review, health checks, safe scripting, automation & documentation | 26 |
+| **Security Operations Center** | SIEM alert triage, investigation, incident notes, and an instructor-authorized offensive track | 12 |
 
-Students practice the professional workflow of receiving, triaging, documenting, and escalating support tickets.
+*(Counts reflect the live catalog; the 5 in-development labs sit within Networking and Security.)*
+
+## Domain 1: Help Desk & Ticketing
+
+Students practice the professional workflow of receiving, triaging, documenting, and escalating support tickets — and the operations awareness that surrounds it, including how real teams track and classify assets.
 
 Skills include:
 
@@ -33,6 +43,7 @@ Writing professional notes
 Avoiding unsupported conclusions
 Escalating with useful context
 Closing or updating tickets only after review
+Asset inventory, ownership, and lifecycle awareness
 ```
 
 Example public scenario:
@@ -42,9 +53,9 @@ A user reports that they cannot access a training workstation.
 The student must identify what information is missing, collect safe evidence, and document the next step.
 ```
 
-## Domain 2: Identity and Access Management
+## Domain 2: Identity & Access Management
 
-Students practice account and access workflows commonly seen in business environments.
+Students practice account and access workflows commonly seen in business environments — including Windows endpoint and policy validation, since most identity issues surface at the endpoint.
 
 Skills include:
 
@@ -55,39 +66,36 @@ Group membership concepts
 Account lockout workflows
 Password policy awareness
 Domain membership validation
-Access request documentation
-Escalation for identity-related issues
+Multi-factor authentication workflows
+Endpoint identity and policy-application checks
+Access request documentation and escalation
 ```
 
 The public documentation describes the concepts only. Private domain names, real accounts, and internal identity configuration are not published here.
 
-## Domain 3: Windows Endpoint Support
+## Domain 3: Networking & Cisco
 
-Students practice troubleshooting and documenting Windows endpoint issues.
+Students practice network troubleshooting from the perspective of endpoints, tickets, and infrastructure evidence — extending into network automation.
 
 Skills include:
 
 ```text
-Endpoint identity checks
-Network configuration review
-Name resolution testing
-Policy application validation
-Event review concepts
-Domain login validation
-Basic workstation health checks
-Professional endpoint documentation
+IP addressing concepts
+Gateway testing
+DNS troubleshooting
+DHCP review
+VLAN awareness
+Traceroute/path interpretation
+Switch and router troubleshooting concepts
+Network automation and repeatable configuration concepts
+Network escalation evidence
 ```
 
-Example public scenario:
+Public documentation does not include private addressing, actual device names, or production topology.
 
-```text
-A workstation appears to be connected to the network, but a user cannot complete a required login workflow.
-The student must prove what works and what does not.
-```
+## Domain 4: Linux & Systems Administration
 
-## Domain 4: Linux and Systems Administration
-
-Students practice Linux endpoint and service support workflows.
+Students practice Linux endpoint and service support workflows, plus the automation and documentation habits that make operations repeatable.
 
 Skills include:
 
@@ -99,31 +107,14 @@ Service status review
 Disk and memory awareness
 Log review concepts
 Safe command usage
+Checklists, runbooks, and validation notes
+Repeatable evidence collection and change summaries
 Health check documentation
 ```
 
 Linux practice supports help desk, systems administration, automation, and security readiness.
 
-## Domain 5: Networking and Infrastructure
-
-Students practice network troubleshooting from the perspective of endpoints, tickets, and infrastructure evidence.
-
-Skills include:
-
-```text
-IP addressing concepts
-Gateway testing
-DNS troubleshooting
-DHCP review
-VLAN awareness
-Traceroute/path interpretation
-Network escalation evidence
-Basic network device concepts
-```
-
-Public documentation does not include private addressing, actual device names, or production topology.
-
-## Domain 6: Security and SOC Readiness
+## Domain 5: Security Operations Center
 
 Students practice defensive SOC analyst thinking with a path into instructor-authorized offensive exercises.
 
@@ -143,77 +134,20 @@ Purple team simulation
 
 Security practice is designed to be controlled and instructor-governed. The domain runs on a dedicated physical node isolated from production training systems. Offensive exercises require instructor authorization, a written scope statement, isolated targets, and documented teardown.
 
-For the full domain breakdown including all six SOC labs and the offensive track, see [security-soc.md](security-soc.md).
+For the full domain breakdown including the defensive SOC labs and the offensive track, see [security-soc.md](security-soc.md).
 
-## Domain 7: Automation and Documentation
+## Capstone
 
-Students practice repeatable workflows, safe scripting concepts, and operational documentation.
+A graduation **Cross-Domain Incident Response capstone** ties the five domains together: a single incident that moves across identity, endpoint, and security operations, requiring the student to investigate, contain, document, and report end to end.
 
-Skills include:
+## Cross-Domain and Operational Practice
 
-```text
-Checklists
-Runbooks
-Validation notes
-Command explanations
-Repeatable evidence collection
-Change summaries
-Portfolio-ready documentation
-```
+Real IT work rarely fits into one box, and some practice runs across every domain rather than as a separate track:
 
-The emphasis is on clarity and safety rather than uncontrolled automation.
+- **Asset management & operations** — inventory, classification (training vs. protected), and lifecycle awareness, practiced within help desk and operations work.
+- **Outside lab support** — ARIA also tracks outside labs (vendor labs, certification practice, bootcamp exercises, disposable sandboxes): requesting a lab, defining goals, tracking evidence, submitting reflections, and confirming cleanup. Outside labs are non-destructive and instructor-governed.
 
-## Domain 8: Asset Management and Operations
-
-Students practice how real IT teams track and support devices.
-
-Skills include:
-
-```text
-Asset inventory
-Asset ownership
-Training vs protected assets
-Access methods
-Lifecycle status
-Onboarding and offboarding concepts
-Documentation of allowed actions
-```
-
-Physical and virtual systems can become learning props only after they are classified and approved.
-
-## Domain 9: Outside Lab Practice
-
-ARIA supports the ability to track outside labs such as vendor labs, certification practice, bootcamp exercises, and disposable sandboxes.
-
-Skills include:
-
-```text
-Requesting a lab
-Defining learning goals
-Tracking evidence
-Submitting reflections
-Archiving lab results
-Confirming cleanup when needed
-```
-
-Outside labs are designed to be non-destructive and instructor-governed.
-
-## Cross-Domain Learning
-
-Real IT work rarely fits into one box.
-
-A single ticket might involve:
-
-```text
-Help desk communication
-Windows endpoint checks
-Identity validation
-DNS troubleshooting
-Documentation
-Escalation
-```
-
-ARIA is designed to help students see these connections.
+A single ticket might involve help desk communication, an endpoint check, identity validation, DNS troubleshooting, documentation, and escalation — ARIA is designed to help students see these connections.
 
 ## Public Safety Note
 
