@@ -29,6 +29,8 @@
   &nbsp;
   <img src="https://img.shields.io/badge/Training_Domains-9-818cf8?style=flat-square&labelColor=0d1117&color=818cf8" alt="9 Training Domains" />
   &nbsp;
+  <img src="https://img.shields.io/badge/Hands--On_Labs-100-f472b6?style=flat-square&labelColor=0d1117&color=f472b6" alt="100 Hands-On Labs" />
+  &nbsp;
   <img src="https://img.shields.io/badge/Career_Levels-L1_→_L5%2B-4ade80?style=flat-square&labelColor=0d1117&color=4ade80" alt="Career Levels L1 to L5+" />
   &nbsp;
   <img src="https://img.shields.io/badge/Docs-Public_Only-fbbf24?style=flat-square&labelColor=0d1117&color=fbbf24" alt="Public Docs Only" />
@@ -141,6 +143,22 @@ What would you check next?
 ```
 
 The goal is to **build judgment, not dependency.**
+
+---
+
+## Verifiable Portfolios
+
+Students don't just finish labs — they graduate with a **portfolio of real, instructor-approved work** they can hand to an employer.
+
+Every completed lab that reaches a student's portfolio has passed a layered review: automated evidence checks, AI rubric grading as a second opinion, and — the deciding step — **human instructor approval**. Only approved work is included.
+
+Each portfolio is **cryptographically signed**, so its authenticity can be confirmed independently:
+
+- An employer can verify a portfolio through a **public verification page** — no account, no login, no need to contact ARIA.
+- The signature confirms the portfolio was genuinely produced through ARIA and that **every lab in it was instructor-approved**.
+- Any edit to the work after signing breaks the signature, so a portfolio can't be quietly altered.
+
+The result is a credential backed by evidence, not just a claim. Secrets and any private lab details are removed before a portfolio is exported — what remains is the student's own work, safe to share.
 
 ---
 
