@@ -74,27 +74,22 @@ The result is enterprise-grade access that a first-week student can use without 
 
 ## The Shift Mode Experience
 
-When a student logs in, they don't see a lesson list. They see a queue:
+When a student opens Shift Mode, they don't see a lesson list. They see a standing queue of at least four labs their instructor has assigned at their level:
 
 ```
-Good morning.
+Your Assigned Labs — Junior IT Operations
 
-Four tickets came in overnight.
-Which one would you like to tackle first?
+  •  Login triage on a training workstation        Identity / Endpoint
+  •  Name resolution is failing for a user          Networking
+  •  Endpoint health check requested                Linux / SysAdmin
+  •  New training asset needs inventory review      Asset Management
 
-[ 1 ]  #314  —  User cannot access training workstation       ● Medium
-[ 2 ]  #315  —  Name resolution appears to be failing         ● Medium
-[ 3 ]  #316  —  Linux endpoint health check requested         ○ Low
-[ 4 ]  #317  —  New training asset needs inventory review     ○ Low
-
-Select a ticket to begin your shift.
-
-›  _
+Work them in any order. Each is reviewed by your instructor.
 ```
 
-The student chooses a ticket, investigates within their permitted level, collects evidence, consults the ARIA Mentor when stuck, and submits the work for instructor review.
+The student chooses a lab, investigates within their permitted level, collects evidence, consults the ARIA Mentor when stuck, and submits the work for instructor review. When a lab is approved and leaves the queue, the next level-appropriate lab takes its place — the queue stays full, and the instructor stays in control of what's eligible.
 
-That moment — choosing which ticket to tackle first — changes the learning experience. The student is no longer consuming information. They are **practicing responsibility**.
+That moment — choosing which lab to tackle first — changes the learning experience. The student is no longer consuming information. They are **practicing responsibility**.
 
 ---
 

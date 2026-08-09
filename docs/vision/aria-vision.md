@@ -56,14 +56,17 @@ A student should not only see a list of lessons. They should see work.
 Example:
 
 ```text
-Good morning.
+Your Assigned Labs — Junior IT Operations
 
-Four tickets came in overnight.
+  •  Login triage on a training workstation
+  •  Name resolution is failing for a user
+  •  Endpoint health check requested
+  •  New training asset needs inventory review
 
 Which one would you like to tackle first?
 ```
 
-That moment changes the learning experience. The student is no longer simply consuming information. They are practicing responsibility.
+That moment — choosing the work — changes the learning experience. The student is no longer simply consuming information. They are practicing responsibility.
 
 ## The Five Pillars
 
