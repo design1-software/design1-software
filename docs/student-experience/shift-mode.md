@@ -9,122 +9,91 @@
 
 # ARIA Shift Mode
 
-Status: Public-safe documentation  
-Purpose: Describe ARIA's ticket-queue workplace simulation without exposing private infrastructure.
+Status: Public-safe documentation
+Purpose: Describe ARIA's assigned-work queue experience without exposing private infrastructure.
 
 ## What Shift Mode Is
 
-Shift Mode is the daily work queue experience inside ARIA Career Operations Mode.
+Shift Mode is the daily workday view inside ARIA Career Operations Mode.
 
-Instead of telling students to start with a numbered lesson, ARIA presents them with realistic work.
-
-Example:
+Instead of a numbered lesson list, a student opens Shift Mode to a **standing queue of at least four labs their instructor has assigned at their level.** The labs are real work — investigate, collect evidence, document, submit — not readings.
 
 ```text
-Good morning.
+Your Assigned Labs — Junior IT Operations
 
-Four tickets came in overnight.
+  •  Login triage on a training workstation        practice area: Identity / Endpoint
+  •  Name resolution is failing for a user          practice area: Networking
+  •  Endpoint health check requested                practice area: Linux / SysAdmin
+  •  New training asset needs inventory review      practice area: Asset Management
 
-Which one would you like to tackle first?
+Work them in any order. Each is reviewed by your instructor.
 ```
 
-The student chooses a ticket, investigates within their allowed level, collects evidence, uses ARIA Mentor for guidance, and submits the result for instructor review.
+*(Illustrative and fictional — titles and areas stand in for real assigned labs.)*
+
+The student picks any lab, investigates within their allowed level, collects evidence, uses ARIA Mentor for guidance, and submits the result for instructor review.
+
+## How the Queue Works
+
+The queue is **instructor-governed and self-replenishing**:
+
+```text
+Seeded    → the student starts with 4 labs drawn at random from the labs
+            approved for their level.
+Chosen    → the student decides which to tackle first — the moment that turns
+            a learner into someone practicing responsibility.
+Reviewed  → completed work goes to the instructor, who approves or returns it.
+Refilled  → when a lab is approved and leaves the queue, the next
+            level-appropriate lab takes its place, holding the queue at four.
+```
+
+Labs are filtered by:
+
+```text
+Student level
+Practice area access
+Instructor assignment
+Safety boundaries
+Promotion status
+```
+
+There is no artificial urgency and no time-of-day theater — just a real, level-appropriate workload the student manages like an IT employee.
 
 ## Why Shift Mode Exists
 
-Real IT work is not a straight line.
-
-A technician must decide:
+Real IT work is not a straight line. A technician must decide:
 
 ```text
-Which ticket is urgent?
+Which task to pick up first?
 What system is affected?
 What information is missing?
 What should be checked first?
 What evidence is needed?
 When should this be escalated?
-How should the ticket be updated?
+How should the work be documented?
 ```
 
-Shift Mode helps students practice that decision-making.
+Shift Mode helps students practice that decision-making — choosing and owning work, not consuming a syllabus.
 
-## Ticket Queue Design
+## How a Student Works a Lab
 
-A shift queue may include tickets across multiple task areas:
-
-```text
-User support
-Login issues
-Endpoint checks
-Linux health checks
-Network triage
-Application access
-Asset onboarding
-Documentation tasks
-Security review
-Outside lab follow-up
-```
-
-Tickets are filtered by:
+A typical flow:
 
 ```text
-Student level
-Practice area access
-Instructor assignments
-Asset permissions
-Safety boundaries
-Promotion status
-```
-
-## Example Public Ticket Queue
-
-```text
-Today's Queue - Junior IT Operations
-
-Ticket #314 - User cannot access a training workstation
-Practice Area: Identity / Endpoint Support
-Priority: Medium
-Expected Work: Collect evidence and document findings
-
-Ticket #315 - Name resolution appears to be failing
-Practice Area: Networking Basics
-Priority: Medium
-Expected Work: Test connectivity and document DNS-related evidence
-
-Ticket #316 - Linux endpoint health check requested
-Practice Area: Linux / SysAdmin
-Priority: Low
-Expected Work: Run approved health checks and summarize results
-
-Ticket #317 - New training asset needs inventory review
-Practice Area: Asset Management
-Priority: Low
-Expected Work: Document asset category and allowed actions
-```
-
-All examples are fictional and sanitized.
-
-## How a Student Works a Ticket
-
-A typical ticket flow:
-
-```text
-1. Read the ticket.
+1. Open the lab from the queue.
 2. Identify the affected user, system, or service.
-3. Review the allowed actions.
+3. Review the allowed actions for the current level.
 4. Collect evidence using approved methods.
 5. Ask ARIA Mentor for guidance when stuck.
 6. Submit evidence for validation.
-7. Draft a professional ticket note.
+7. Draft a professional summary or ticket note.
 8. Submit the work for instructor review.
-9. Receive feedback or approval.
+9. Receive feedback or approval — and the queue refills.
 ```
 
 ## How ARIA Mentor Supports the Student
 
-ARIA Mentor should guide like a senior teammate.
-
-Instead of giving away the answer immediately, the mentor should ask questions such as:
+ARIA Mentor guides like a senior teammate. Instead of giving away the answer, it asks:
 
 ```text
 What system is affected?
@@ -140,24 +109,22 @@ This teaches thinking, not memorization.
 
 ## Instructor Review
 
-Shift Mode does not remove instructor control.
-
-The instructor reviews:
+Shift Mode does not remove instructor control — it depends on it. The instructor owns which labs are eligible for a student, and reviews:
 
 ```text
 Evidence quality
 Troubleshooting sequence
-Ticket note quality
+Documentation quality
 Safety compliance
 Escalation judgment
 Level readiness
 ```
 
-The instructor may approve, request more evidence, assign remediation, or unlock additional practice.
+The instructor may approve, request more evidence, assign remediation, or unlock additional practice. **The instructor is the grade of record** — only instructor-approved work reaches a student's verifiable portfolio.
 
 ## Safety Boundaries
 
-Shift tickets must respect student level and asset classification.
+Assigned work respects student level and asset classification.
 
 ```text
 Junior students collect evidence and document findings.
@@ -172,7 +139,7 @@ Protected assets remain protected.
 Shift Mode teaches students to work like IT employees:
 
 ```text
-Start with the ticket
+Pick up the work
 Gather facts
 Avoid assumptions
 Use evidence
