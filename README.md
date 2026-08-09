@@ -121,7 +121,7 @@ ARIA organizes practice into **six training domains** that mirror the live lab c
 | 03 · **Networking & Cisco** | IP/DNS/DHCP, VLANs, routing, switch/router troubleshooting, network automation | 17 |
 | 04 · **Linux & Systems Administration** | Service status, log review, health checks, safe scripting, automation & documentation | 16 |
 | 05 · **Security Operations Center** | SIEM alert triage, investigation, incident notes, instructor-authorized offensive track | 12 |
-| 06 · **Data Analysis** | Data profiling & cleaning, relational (star-schema) modeling, SQL and pandas analysis, dashboards, and sensor time-series | 10 |
+| 06 · **Data Analysis** | Data profiling & cleaning, relational (star-schema) modeling, SQL and pandas analysis, dashboards in **Power BI & Tableau**, and sensor time-series | 10 |
 
 Asset management/operations and outside-lab support run **across** these domains rather than as separate tracks, and a graduation **Cross-Domain Incident Response capstone** connects them end to end. See the [Training Domains Overview](docs/training-domains/overview.md).
 
