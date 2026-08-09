@@ -20,14 +20,15 @@
     <a href="docs/vision/aria-vision.md">Vision</a>&nbsp;&nbsp;·&nbsp;&nbsp;
     <a href="docs/student-experience/career-operations-mode.md">Career Ops Mode</a>&nbsp;&nbsp;·&nbsp;&nbsp;
     <a href="docs/student-experience/shift-mode.md">Shift Mode</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href="docs/training-domains/overview.md">Training Domains</a>
+    <a href="docs/training-domains/overview.md">Training Domains</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="docs/student-experience/access-model.md">Access</a>
   </p>
 
   <br>
 
   <img src="https://img.shields.io/badge/Platform-Active_Development-38bdf8?style=flat-square&labelColor=0d1117&color=38bdf8" alt="Active Development" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Training_Domains-5-818cf8?style=flat-square&labelColor=0d1117&color=818cf8" alt="5 Training Domains" />
+  <img src="https://img.shields.io/badge/Training_Domains-6-818cf8?style=flat-square&labelColor=0d1117&color=818cf8" alt="6 Training Domains" />
   &nbsp;
   <img src="https://img.shields.io/badge/Hands--On_Labs-100-f472b6?style=flat-square&labelColor=0d1117&color=f472b6" alt="100 Hands-On Labs" />
   &nbsp;
@@ -47,6 +48,27 @@ It is not a course library. It is not a chatbot. It is not a collection of isola
 > ARIA is a **guided workplace simulation** where students practice how to read tickets, prioritize work, investigate systems, collect evidence, document findings, and grow through progressive responsibility — before they ever touch a real production environment.
 
 The differentiator is **enterprise realism**. Students don't click through lessons — they enter a simulated IT workplace and receive work.
+
+---
+
+## Access — Any Device, Anywhere
+
+ARIA runs **entirely in the browser** — nothing to install, no VPN, no client. A student can start a shift from a laptop, a Chromebook, a library computer, or a phone.
+
+Signing in is simple on the surface and strict underneath:
+
+```text
+1. Open ARIA in any web browser.
+2. Enter your email — a one-time code is sent to it.
+3. Type the code. You're verified — no shared password to leak, nothing to memorize.
+4. You land on a personal workspace showing only the lab systems assigned to you.
+```
+
+Each student gets a **Linux terminal** and a **Windows desktop** streamed straight to the browser tab — plus network simulation and identity tooling when a lab calls for them. The device never joins the private network and never needs special software.
+
+Underneath is a **zero-trust, least-privilege** model: an identity-aware access gateway verifies every student at the edge, a browser-based access broker connects them to only their own resources, and the student path is completely separate from the instructor's private management path. Nothing lab-facing is exposed directly to the internet.
+
+The result is enterprise-grade access that a first-week student can use without a setup call. See **[Access Model](docs/student-experience/access-model.md)** for the full description.
 
 ---
 
@@ -90,17 +112,18 @@ That moment — choosing which ticket to tackle first — changes the learning e
 
 ## Training Domains
 
-ARIA organizes practice into **five training domains** that mirror the live lab catalog — **100 hands-on labs** in total (95 production-ready). A single ticket may touch several domains at once.
+ARIA organizes practice into **six training domains** that mirror the live lab catalog — **100 hands-on labs** in total (95 production-ready). A single ticket may touch several domains at once.
 
 | Domain | Focus | Labs |
 |--------|-------|------|
 | 01 · **Help Desk & Ticketing** | Triage, documentation, escalation, professional communication, asset/operations awareness | 24 |
 | 02 · **Identity & Access Management** | Account review, login triage, group membership, lockouts, MFA, Windows endpoint & policy validation | 21 |
 | 03 · **Networking & Cisco** | IP/DNS/DHCP, VLANs, routing, switch/router troubleshooting, network automation | 17 |
-| 04 · **Linux & Systems Administration** | Service status, log review, health checks, safe scripting, automation & documentation | 26 |
+| 04 · **Linux & Systems Administration** | Service status, log review, health checks, safe scripting, automation & documentation | 16 |
 | 05 · **Security Operations Center** | SIEM alert triage, investigation, incident notes, instructor-authorized offensive track | 12 |
+| 06 · **Data Analysis** | Data profiling & cleaning, relational (star-schema) modeling, SQL and pandas analysis, dashboards, and sensor time-series | 10 |
 
-Asset management/operations and outside-lab support run **across** these domains rather than as separate tracks, and a graduation **Cross-Domain Incident Response capstone** ties all five together. See the [Training Domains Overview](docs/training-domains/overview.md).
+Asset management/operations and outside-lab support run **across** these domains rather than as separate tracks, and a graduation **Cross-Domain Incident Response capstone** connects them end to end. See the [Training Domains Overview](docs/training-domains/overview.md).
 
 ---
 
@@ -180,9 +203,10 @@ This repository is the **public documentation home** for ARIA. It contains the l
 | [Career Operations Mode](docs/student-experience/career-operations-mode.md) | The progressive workplace simulation and student experience |
 | [Career Operations Features](docs/student-experience/career-operations-features.md) | Assignment Bridge, Employee Onboarding, Student Dashboard, and Outside Lab Support |
 | [Shift Mode](docs/student-experience/shift-mode.md) | The daily ticket queue — how students choose, investigate, and submit work |
+| [Access Model](docs/student-experience/access-model.md) | Any device, anywhere — browser-only access, one-time-code sign-in, and the zero-trust security model |
 | [Evidence-Based Learning](docs/student-experience/evidence-based-learning.md) | Proof vs. claim, scope enforcement, teardown requirements, and the final note format |
 | [ARIA Mentor](docs/student-experience/aria-mentor.md) | The AI coaching model — template validation, evidence standards, and instructor loop |
-| [Training Domains Overview](docs/training-domains/overview.md) | All five domains, the capstone, and how they connect |
+| [Training Domains Overview](docs/training-domains/overview.md) | All six domains, the capstone, and how they connect |
 | [Security and SOC Domain](docs/training-domains/security-soc.md) | Six defensive SOC labs, the offensive track, evidence standards, and the dedicated security node |
 | [Public / Private Boundaries](docs/governance/public-private-boundaries.md) | What belongs here and what stays in the private codebase |
 
