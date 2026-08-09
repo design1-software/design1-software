@@ -14,17 +14,18 @@ Purpose: Describe ARIA's training areas without exposing private infrastructure 
 
 ## Overview
 
-ARIA organizes practice into **five training domains** that mirror the platform's live lab catalog. The goal is not to teach isolated facts — it is to help students see how help desk, identity, networking, Linux systems, and security connect in a real workplace. A single ticket often touches several domains at once.
+ARIA organizes practice into **six training domains** that mirror the platform's live lab catalog. The goal is not to teach isolated facts — it is to help students see how help desk, identity, networking, Linux systems, security, and data analysis connect in a real workplace. A single ticket often touches several domains at once.
 
-Across the five domains, ARIA offers **100 hands-on labs** — 95 production-ready and 5 in active development.
+Across the six domains, ARIA offers **100 hands-on labs** — 95 production-ready and 5 in active development.
 
 | Domain | Focus | Labs |
 |--------|-------|------|
 | **Help Desk & Ticketing** | Triage, documentation, escalation, professional communication, asset/operations awareness | 24 |
 | **Identity & Access Management** | Account review, login triage, group membership, lockouts, MFA, Windows endpoint & policy validation | 21 |
 | **Networking & Cisco** | IP/DNS/DHCP, VLANs, routing, switch/router troubleshooting, network automation | 17 |
-| **Linux & Systems Administration** | Service status, log review, health checks, safe scripting, automation & documentation | 26 |
+| **Linux & Systems Administration** | Service status, log review, health checks, safe scripting, automation & documentation | 16 |
 | **Security Operations Center** | SIEM alert triage, investigation, incident notes, and an instructor-authorized offensive track | 12 |
+| **Data Analysis** | Data profiling & cleaning, star-schema modeling, SQL and pandas analysis, dashboards, and sensor time-series | 10 |
 
 *(Counts reflect the live catalog; the 5 in-development labs sit within Networking and Security.)*
 
@@ -136,9 +137,38 @@ Security practice is designed to be controlled and instructor-governed. The doma
 
 For the full domain breakdown including the defensive SOC labs and the offensive track, see [security-soc.md](security-soc.md).
 
+## Domain 6: Data Analysis
+
+Students practice turning raw, messy data into trustworthy answers — the analyst workflow of profiling data, cleaning it, modeling it, and reporting findings that hold up to scrutiny. It reinforces the same evidence-first discipline as the rest of ARIA: a conclusion is only as good as the data and the checks behind it.
+
+Skills include:
+
+```text
+Data profiling and quality assessment
+Cleaning and validating raw datasets
+Building fact and dimension tables
+Relational (star-schema) data modeling
+Analysis with SQL
+Analysis with Python (pandas)
+Building dashboards and visual reports
+Time-series analysis from sensor data
+Documenting assumptions, limitations, and data caveats
+Reproducing and explaining a data discrepancy end to end
+```
+
+Example public scenario:
+
+```text
+A dashboard shows no data for a reporting period.
+The student must trace the pipeline, find where records were dropped or mismatched,
+correct the model, and document what was wrong and how it was verified.
+```
+
+Public documentation describes the analyst concepts and workflow only. Real datasets, private data sources, and internal reporting connections are not published here.
+
 ## Capstone
 
-A graduation **Cross-Domain Incident Response capstone** ties the five domains together: a single incident that moves across identity, endpoint, and security operations, requiring the student to investigate, contain, document, and report end to end.
+A graduation **Cross-Domain Incident Response capstone** connects the operational domains end to end: a single incident that moves across identity, endpoint, and security operations, requiring the student to investigate, contain, document, and report.
 
 ## Cross-Domain and Operational Practice
 
