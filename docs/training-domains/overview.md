@@ -25,7 +25,7 @@ Across the six domains, ARIA offers **100 hands-on labs** — 95 production-read
 | **Networking & Cisco** | IP/DNS/DHCP, VLANs, routing, switch/router troubleshooting, network automation | 17 |
 | **Linux & Systems Administration** | Service status, log review, health checks, safe scripting, automation & documentation | 16 |
 | **Security Operations Center** | SIEM alert triage, investigation, incident notes, and an instructor-authorized offensive track | 12 |
-| **Data Analysis** | Data profiling & cleaning, star-schema modeling, SQL and pandas analysis, dashboards, and sensor time-series | 10 |
+| **Data Analysis** | Data profiling & cleaning, star-schema modeling, SQL and pandas analysis, dashboards in Power BI & Tableau, and sensor time-series | 10 |
 
 *(Counts reflect the live catalog; the 5 in-development labs sit within Networking and Security.)*
 
@@ -150,7 +150,8 @@ Building fact and dimension tables
 Relational (star-schema) data modeling
 Analysis with SQL
 Analysis with Python (pandas)
-Building dashboards and visual reports
+Building interactive dashboards in Power BI
+Building and publishing dashboards in Tableau
 Time-series analysis from sensor data
 Documenting assumptions, limitations, and data caveats
 Reproducing and explaining a data discrepancy end to end
