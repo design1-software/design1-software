@@ -64,7 +64,7 @@ Signing in is simple on the surface and strict underneath:
 4. You land on a personal workspace showing only the lab systems assigned to you.
 ```
 
-Each student gets a **Linux terminal** and a **Windows desktop** streamed straight to the browser tab — plus network simulation and identity tooling when a lab calls for them. The device never joins the private network and never needs special software.
+Each student gets a **Linux terminal** and a **Windows desktop** streamed straight to the browser tab — plus network simulation and identity tooling when a lab calls for them. The device never joins the private network and never needs special software. The Linux workspace comes **preloaded with the everyday toolset** — `git`, `tmux`, `vim`, `curl`, and standard networking tools — so students can start working immediately, and each one is a **persistent** container they return to, not a throwaway sandbox.
 
 Underneath is a **zero-trust, least-privilege** model: an identity-aware access gateway verifies every student at the edge, a browser-based access broker connects them to only their own resources, and the student path is completely separate from the instructor's private management path. Nothing lab-facing is exposed directly to the internet.
 
